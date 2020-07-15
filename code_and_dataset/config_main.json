@@ -1,0 +1,33 @@
+{
+    "do_train": false,
+    "do_test": false,
+    "Data": {
+        "data_file": "BD_2013_DATAPROVIDER_READY.txt",
+        "test_file": "all_weekly.txt",
+        "bind_core_file": "binding_core.txt",
+        "max_len_hla_A": 274,
+        "max_len_hla_B": 291,
+        "max_len_pep": 25,
+        "validation_ratio": 0.1
+    },
+    "Training": {
+        "epochs": 100,
+        "start_lr": 0.01,
+        "min_lr": 0.0001,
+        "grad_clip": 0.8,
+        "batch_size": 1,
+        "loss_delta": 0.00001,
+        "weight_decay": 0.01
+    },
+    "Paths": {
+        "working_dir": "BD2013/dup_19"
+    },
+    "Model": {
+        "seq_encoding_dim": 43,
+        "LSTM": {
+            "hidden_size": 100,
+            "num_layers": 2
+        },
+        "encoding_method": "one_hot+blosum"
+    }
+}
