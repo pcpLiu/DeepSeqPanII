@@ -13,3 +13,8 @@ $ python run.py "BD2013/config.json"
 ```
 $ ./run_LOMO_2016.sh
 ```
+
+# Quick test a sample
+```
+$ python main.py "../Models/benchmark_weekly/model_bd2013.pytorch" "DRA*01:01" "DRB1*01:01" "AAYSDQATPLLLSPR"
+```
