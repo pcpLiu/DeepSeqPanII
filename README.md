@@ -9,3 +9,7 @@ Preprint on bioRxiv --> [link](https://www.biorxiv.org/content/10.1101/817502v1)
 ## Directory
 - Code and dataset: Our implementation code for training and evaluation. Also dataset we used.
 - Models: Model trained on BD2013 and LOMO models trained on BD2016.
+
+
+## License
+MIT
