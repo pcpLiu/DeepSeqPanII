@@ -2,7 +2,8 @@
 
 ![Model](https://github.com/pcpLiu/DeepSeqPanII/blob/master/model.png)
 
-DeepSeqPanII: an interpretable recurrent neural network model with attention mechanism for peptide-HLA class II binding prediction. Zhonghao Liu, Jing Jin, Yuxin Cui, Zheng Xiong, Alireza Nasiri, Yong Zhao, and Jianjun Hu*, 2019 (submitted)
+
+Liu, Z., Jin, J., Cui, Y., Xiong, Z., Nasiri, A., Zhao, Y., & Hu, J. (2021). DeepSeqPanII: an interpretable recurrent neural network model with attention mechanism for peptide-HLA class II binding prediction. IEEE/ACM Transactions on Computational Biology and Bioinformatics.
 
 
 ## Directory
@@ -20,8 +21,6 @@ DeepSeqPanII: an interpretable recurrent neural network model with attention mec
   publisher={IEEE}
 }
 ```
-
-Liu, Z., Jin, J., Cui, Y., Xiong, Z., Nasiri, A., Zhao, Y., & Hu, J. (2021). DeepSeqPanII: an interpretable recurrent neural network model with attention mechanism for peptide-HLA class II binding prediction. IEEE/ACM Transactions on Computational Biology and Bioinformatics.
 
 
 ## License
